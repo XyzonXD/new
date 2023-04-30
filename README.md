@@ -1,4 +1,4 @@
-
+<img src="IMG_20230430_234329.jpg">
 #### CARA INSTALL SCRIPT:
  download aplikasi termux android di [sini!](https://f-droid.org/repo/com.termux_117.apk), lalu buka aplikasinya ketikan perintah dibawah ini.
  ```
