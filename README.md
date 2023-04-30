@@ -1,4 +1,6 @@
-<img src="IMG_20230430_234329.jpg">
+<img src="IMG_20230430_234737.jpg">
+
+
 #### CARA INSTALL SCRIPT:
  download aplikasi termux android di [sini!](https://f-droid.org/repo/com.termux_117.apk), lalu buka aplikasinya ketikan perintah dibawah ini.
  ```
@@ -11,13 +13,13 @@ pip install bs4
 pip install requests
 pip install rich
 pip install mechanize
-git clone https://github.com/XyzonXD/new
+git clone https://github.com/Ramzgod/bruteV2
  ```
  oke sekarang script sudah terinstall
 #### CARA MENJALANKAN SCRIPT:
  sekarang karena script sudah diinstall tinggal kita jalankan, ketikan perintah dibawah ini:
  ```
-cd new
+cd bruteV2
 git pull
 python run.py
 ```
