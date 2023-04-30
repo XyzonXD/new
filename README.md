@@ -11,13 +11,13 @@ pip install bs4
 pip install requests
 pip install rich
 pip install mechanize
-git clone https://github.com/Ramzgod/bruteV2
+git clone https://github.com/XyzonXD/new
  ```
  oke sekarang script sudah terinstall
 #### CARA MENJALANKAN SCRIPT:
  sekarang karena script sudah diinstall tinggal kita jalankan, ketikan perintah dibawah ini:
  ```
-cd bruteV2
+cd new
 git pull
 python run.py
 ```
