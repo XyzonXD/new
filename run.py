@@ -61,31 +61,6 @@ def jalan(z):
         sys.stdout.flush()
         time.sleep(0.03)
         
-def yayanxd():
-    os.system('clear')
-    print (' %s*%s %stools ini menggunakan login cookies facebook.%s\n %s*%s %sapakah kamu sudah tau cara mendapatkan cookies facebook?%s\n %s*%s %sketik%s %sopen%s %suntuk mendapatkan cookies%s'%(O,N,P,N,O,N,P,N,O,N,P,N,O,N,P,N))
-    cookie = input("\n %s[%s?%s] Cookies : %s"% (N,K,N,P))
-    if cookie in['OPEN','Open','open']:
-      jalan("\n  %s* %s %sanda akan di arahkan ke YouTube%s"%(O,H,P,O));time.sleep(3);os.system('xdg-open https://youtu.be/DF7bUCn0GFY');yayanxd()
-    try:
-        head={'Host':'business.facebook.com','cache-control':'max-age=0','upgrade-insecure-requests':'1','user-agent':'Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.92 Mobile Safari/537.36','accept' : 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8','content-type' : 'text/html; charset=utf-8','accept-encoding':'gzip, deflate','accept-language':'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7','cookie': cookie}
-        asww=requests.get("https://business.facebook.com/creatorstudio/home", headers=head)
-        reqq=re.search('{"accessToken":"(EAA\w+)', asww.text)
-        tokn=reqq.group(1)
-        open('.cokie.txt', 'a').write(cookie)
-        open('.token.txt', 'a').write(tokn)
-        nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(tokn)).json()['name']
-        print('\n\n %s*%s %sselamat datang%s %s%s%s'%(O,N,P,N,K,nama,N));time.sleep(1)
-        print(' %s*%s %smohon untuk menggunakan sc ini sewajarnya, kami tidak bertanggung jawab jika sc ini disalah gunakan...%s'%(O,N,P,N));time.sleep(1)
-        input(' %s*%s %sTekan enter%s '%(O,N,P,N))
-        os.system('xdg-open https://www.facebook.com/bintangt.zy.92')
-        moch_yayan()
-    except AttributeError:
-        print('\n %s[%s×%s] cookies invalid'%(N,M,N));time.sleep(1);yayanxd()
-    except UnboundLocalError:
-        print('\n %s[%s×%s] cookies invalid'%(N,M,N));time.sleep(1);yayanxd()
-    except requests.exceptions.ConnectionError:
-        exit('\n\n %s[%s!%s] tidak ada koneksi\n'%(N,M,N))
 def xyzondev():
     try:
         kontol = open('.token.txt', 'r').read()
