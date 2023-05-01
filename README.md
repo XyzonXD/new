@@ -8,6 +8,7 @@ pkg update && pkg upgrade
 pkg install python
 pkg install git
 pip install stdiomask
+pkg install play-audio
 pip install requests
 pip install bs4
 pip install requests
