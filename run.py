@@ -73,8 +73,6 @@ def xyzondev():
     except requests.exceptions.ConnectionError:
         exit('\n\n %s[%s!%s] tidak ada koneksi\n'%(N,M,N))
     IP = requests.get("https://api.ipify.org").text
-    _mmk_ = open('.cokie.txt').read()
-    kueh  = {"cookie":_mmk_}
     
     print("[%s•%s] %sServer sedang maintenance%s"%(O,N,K,N))
     print("[%s•%s] %stunggu lah beberapa saat lagi%s"%(O,N,K,N))
